@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><div class="main">
+    <center><div class="titulo"><h3>2 reais ou um cacheado misterioso ?</h3></div></center>
+    <button class="Sin"><a href="termo.html">Cacheado misterioso(vulgo eu😘)</a></button>
+    <button class="Nao" id="no">2 reais(pobre kkkj)</button>
+
+</div>
+<script>
+    let button = document.getElementById('no');
+    let height = window.innerHeight - 50;
+    let width = innerWidth - 50;
+
+    button.addEventListener('mouseover', function(){
+        button.style.position = "absolute";
+        button.style.top = Math.random() * height + "px";
+        button.style.left = Math.random() * width + "px";
+
+    })
+</script>
+    
+</body>
+</html>

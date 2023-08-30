@@ -1,0 +1,63 @@
+.body{
+    width: 100;
+    height: 100%;
+    background-color: #663ef9;
+}
+.Sin{
+    
+    width: 190px;
+    height: 90px;
+    background-color: #ffa506;
+    position: absolute;
+    transform: translate(670px,200px);
+    border-radius: 100px;
+    border-color: #250ff3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Nao{
+    width: 190px;
+    height: 90px;
+    background-color: #250ff3;
+    position: absolute;
+    transform: translate(970px,200px);
+    border-radius: 100px;
+    border-color: #ffd70d;
+    font-style: normal;
+    color:    #ffd70d;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1;
+    
+    
+
+}
+
+
+
+
+.titulo{
+    font-size: 30px;
+    width: 100vw;
+    height: 90px ;
+    background-color: #663ef9;
+    color: aliceblue;    
+
+}
+.titulo > h3{
+    
+    font-family:'Courier New', Courier, monospace;
+    font-style:normal;
+    font-weight: 20;
+    box-shadow: 0px 0px 2px ;
+}
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: #663ef9;
+}
